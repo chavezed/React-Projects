@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import './style.css';
-import MyInfo from "./components/MyInfo"; // needs a relative path (.js optional)
+import App from "./App.js"
 
-ReactDOM.render(<MyInfo />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
