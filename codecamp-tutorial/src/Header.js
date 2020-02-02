@@ -2,8 +2,8 @@ import React from "react"
 
 function Header() {
     return (
-        <header>I am a header</header>
+        <header className="navbar">Welcome to the TodoDo Application</header>
     )
 }
 
-export default Header;
+export default Header

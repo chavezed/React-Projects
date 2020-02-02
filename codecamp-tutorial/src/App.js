@@ -1,7 +1,7 @@
 import React from "react"
-import Header from "./Header.js"
-import MainContent from "./MainContent.js"
-import Footer from "./Footer.js"
+import Header from "./Header"
+import MainContent from "./MainContent"
+import Footer from "./Footer"
 
 function App() {
     return (
@@ -13,4 +13,4 @@ function App() {
     )
 }
 
-export default App;
+export default App
