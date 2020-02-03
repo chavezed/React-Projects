@@ -3,7 +3,7 @@ import Header from "./Header"
 import MainContent from "./MainContent"
 import Footer from "./Footer"
 
-function App() {
+/* function App() {
     return (
         <div>
             <Header />
@@ -11,6 +11,20 @@ function App() {
             <Footer />
         </div>
     )
+} */
+
+class App extends React.Component {
+    render() {
+        const date = new Date();
+        return (
+            <div>
+                <Header />
+                <h2>{date.toLocaleString()}</h2>
+                <MainContent />
+                <Footer />
+            </div>
+        )
+    }
 }
 
 export default App
